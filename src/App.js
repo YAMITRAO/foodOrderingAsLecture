@@ -10,7 +10,6 @@ function App() {
 
   const showCartHandler = () =>{
     setCartIsShow(true);
-    console.log("Ture is clicked")
   }
 
   const hideCartHandler = () =>{

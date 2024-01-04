@@ -9,11 +9,11 @@ const Header = prosp =>{
         <>
         <header className={classes.header}>
             <h1>ReactMeals</h1>
-            <HeaderCartButton onButtonClick={prosp.onShowCart}/>
+            <HeaderCartButton onClick={prosp.onShowCart}/>
         </header>
 
         <div className={classes['main-image']}>
-            <img  src={melaImages} alt="This is an Image of table with food items"/>
+            <img  src={melaImages} alt="This is an of table with food items"/>
         </div>
 
         </>
